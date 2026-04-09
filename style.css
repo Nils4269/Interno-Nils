@@ -1,7 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.section-hero{
+    background-image: url(asset/a/Banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 /*TAILLE*/
@@ -81,6 +94,10 @@
     flex-wrap: wrap;
 }
 
+.flex-end{
+    justify-content: flex-end;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -96,4 +113,72 @@
 /* AUTRE */
 .block {
     display: inline-block;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.btn-nav a{
+text-decoration: none;
+color: black;
+margin-left: 32px;
+}
+
+.btn1{
+text-decoration: none;
+background-color: black;
+color: white;
+padding: 10px 20px;
+border-radius: 5px;
+width: fit-content;
+margin: auto;
+display: block;
+margin-top: 50px;
+
+}
+
+.jost400{
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight 400px;
+  font-style: normal;
+}
+
+.jost600{
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font: weight 600px;;
+  font-style: normal;
+}
+
+
+
+
+.dmserif600{
+      font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+.container-1000{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.hero-txt{
+    max-width: 500px;
+    margin-left: 100px;
+    text-align: left;
+}
+.hero-txt h1{
+         font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
 }
